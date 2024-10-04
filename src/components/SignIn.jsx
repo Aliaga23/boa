@@ -38,7 +38,7 @@ function SignInForm() {
         
         <form onSubmit={handleOnSubmit} className="space-y-4">
           <input
-            type="email"
+            type="text"
             placeholder="Email"
             name="email"
             value={state.email}
