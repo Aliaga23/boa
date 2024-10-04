@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Usuarios from './components/UsuariosForm';
-import AuthPage from "./components/AuthFormSwitcher";
 import Categorias from './components/CategoriasForm';
 import Productos from './components/ProductosForm';
 import Roles from './components/RolesForm';
@@ -11,13 +10,14 @@ import ControlCalidad from './components/ControlCalidad';
 import Lote from './components/Lote';
 import ControlNivelesInventario from './components/ControlNivelesInventario';
 import Landing from './components/Landingpage';
+import SignInForm from "./components/SignIn";
 const App = () => {
   return (
     <Router>
       <div>
         <Routes>
         <Route path="/" element={<Landing />} />
-          <Route path="/inicio" element={<AuthPage />} />
+          <Route path="/login" element={<SignInForm/>} />
           <Route path="/usuario" element={<Usuarios />} />
           <Route path="/categoria" element={<Categorias />} />
           <Route path="/producto" element={<Productos />} />
