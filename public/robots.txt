@@ -1,12 +1,2 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: 
-
-Disallow: https://backendfitmrp-production.up.railway.app
-
-Disallow: https://backendfitmrp-production.up.railway.app/api/auth/login
-Disallow: https://backendfitmrp-production.up.railway.app/api/users
-Disallow: https://backendfitmrp-production.up.railway.app/api/roles
-Disallow: https://backendfitmrp-production.up.railway.app/api/inventories
-Disallow: https://backendfitmrp-production.up.railway.app/api/logs
-Disallow: https://backendfitmrp-production.up.railway.app/api/settings
